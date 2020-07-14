@@ -1,0 +1,98 @@
+//底部按钮
+.bottombar {
+  width: 100%;
+  text-align: center;
+  position: fixed !important;
+  bottom: 0;
+  height: 49px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  z-index: 10;
+  .weui-flex__item {
+    height: 100%;
+    line-height: 49px;
+    color: #fff;
+    font-size: 15px;
+    &.btn-register {
+      background-image: -webkit-linear-gradient(top, #35e1f9, #50cdfd, #60bfff);
+    }
+    &.btn-sign {
+      background-image: -webkit-linear-gradient(top, #8fe671, #3edc7d, #06d384);
+    }
+  }
+}
+
+.top {
+  background: #fff;
+  box-shadow: 0px 3px 10px 0px rgba(0, 0, 0, 0.1);
+}
+
+.weui-cells {
+  font-size: 14px;
+  .weui-label {
+    width: 75px;
+  }
+}
+
+.title-flex {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  span:nth-child(2) {
+    color: #31BAF7;
+  }
+}
+.text-non-editable {
+  color: #999;
+}
+.weui-cells {
+  font-size: 14px;
+  .weui-label {
+    width: 75px;
+  }
+  input {
+    flex: 1;
+    border: none;
+    &[disabled] {
+      background: transparent;
+    }
+  }
+  .get-code {
+    display: flex;
+    flex-direction: row;
+    input{
+      height: 30px;
+      flex: 2;
+      width: 130px;
+    }
+    .weui-btn {
+      width: 100px;
+      padding: 6px;
+      font-size: 13px;
+      flex: 1;
+    }
+  }
+}
+
+.noting {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  color: #CACACA;
+  height: 100%;
+  justify-content: center;
+  font-size: 16px;
+  .nodata {
+    width: 246px;
+    margin-bottom: 33px;
+  }
+}
+
+
+
+.weui-picker__item{
+  font-size: 14px!important;
+}
