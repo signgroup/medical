@@ -37,7 +37,7 @@ module.exports = {
         hotOnly: true,//热更新
         proxy: {
             '/api': {
-                target: 'http://192.168.0.214:8001/v1/regv1',
+                target: 'http://192.168.110.216:8001/v1/regv1',
                 changeOrigin: true,//如果需要跨域那么需要加上参数changeOrigin:true
                 ws: true,
                 pathRewrite: {

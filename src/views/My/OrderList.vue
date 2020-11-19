@@ -16,7 +16,7 @@
                         <div class="preview-text">
                             <p class="ellipsis-1">科室：{{item.departmentName}}</p>
                             <p class="ellipsis-1">医院：{{item.hospitalName}}</p>
-                            <p class="ellipsis-1">预约时间：{{item.reservationTime}}</p>
+                            <p class="ellipsis-1">预约时间：{{item.scheduleDate}}</p>
                         </div>
                         <div class="icon-status"
                              :style="'align-items: '+orderStatus(item.lockNumberType,item.status,item.payStatus)">
@@ -115,6 +115,7 @@
                 /*console.log("lockNumberType",lockNumberType)
                 console.log("status",status)
                 console.log("payStatus",payStatus)*/
+                
                 var str = ""
                 /*
                 * flex-start 已成功
